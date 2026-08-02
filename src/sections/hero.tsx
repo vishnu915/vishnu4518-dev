@@ -152,12 +152,15 @@ export function Hero() {
               </a>
             </Magnetic>
             <Magnetic>
-              <a
-                href="#contact"
-                className="glass glow-border inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium"
-              >
-                <Download size={16} /> Download Resume
-              </a>
+               <a
+             href="https://drive.google.com/uc?export=download&id=1e5vjg1gK2OOc014V8MidYfqEXRMihPZj"
+             target="_blank"
+             rel="noopener noreferrer"
+              className="glass glow-border inline-flex items-center gap-2 rounded-full px-6 py-3 text-sm font-medium"
+  >
+               <Download size={16} />
+                      Download Resume
+             </a>
             </Magnetic>
             <Magnetic>
               <a

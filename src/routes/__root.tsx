@@ -74,32 +74,58 @@ function ErrorComponent({ error, reset }: { error: Error; reset: () => void }) {
 
 export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()({
   head: () => ({
-    meta: [
-      { charSet: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Vishnu Vardhan — Agentic AI Engineer" },
-      {
-        name: "description",
-        content:
-          "Agentic AI Engineer building multi-agent systems, LLM applications and full stack products.",
-      },
-      { name: "author", content: "Vishnu Vardhan" },
-      { name: "theme-color", content: "#050816" },
-      { property: "og:site_name", content: "Vishnu Vardhan" },
-      { property: "og:type", content: "website" },
-      { name: "twitter:card", content: "summary_large_image" },
-    ],
-    links: [
-      { rel: "stylesheet", href: appCss },
-      { rel: "preconnect", href: "https://fonts.googleapis.com" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
-      {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap",
-      },
-      { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
-    ],
-  }),
+  meta: [
+    { charSet: "utf-8" },
+    { name: "viewport", content: "width=device-width, initial-scale=1" },
+
+    { title: "Vishnu Vardhan — Agentic AI Engineer & Full Stack Developer" },
+
+    {
+      name: "description",
+      content:
+        "Portfolio of Vishnu Vardhan showcasing Agentic AI, GenAI, Python, React, FastAPI and Enterprise AI projects.",
+    },
+
+    { name: "author", content: "Vishnu Vardhan" },
+
+    { name: "theme-color", content: "#050816" },
+
+    // Open Graph
+    { property: "og:title", content: "Vishnu Vardhan — Agentic AI Engineer" },
+    {
+      property: "og:description",
+      content:
+        "Portfolio of Vishnu Vardhan showcasing AI Agents, LLMs and Full Stack Development.",
+    },
+    { property: "og:type", content: "website" },
+    { property: "og:site_name", content: "Vishnu Vardhan" },
+    { property: "og:url", content: "https://vishnu4518-dev.vercel.app" },
+
+    // IMPORTANT
+    {
+      property: "og:image",
+      content: "https://vishnu4518-dev.vercel.app/og-image.png",
+    },
+
+    // Twitter
+    { name: "twitter:card", content: "summary_large_image" },
+    { name: "twitter:title", content: "Vishnu Vardhan — Agentic AI Engineer" },
+    {
+      name: "twitter:description",
+      content:
+        "Portfolio of Vishnu Vardhan showcasing AI Agents and Full Stack projects.",
+    },
+    {
+      name: "twitter:image",
+      content: "https://vishnu4518-dev.vercel.app/og-image.png",
+    },
+  ],
+
+  links: [
+    { rel: "stylesheet", href: appCss },
+    { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
+  ],
+}),
   shellComponent: RootShell,
   component: RootComponent,
   notFoundComponent: NotFoundComponent,
