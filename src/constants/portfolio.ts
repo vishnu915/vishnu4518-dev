@@ -415,6 +415,9 @@ export const PROJECTS: Project[] = [
       "SQLAlchemy 2.0",
       "MySQL",
       "Redis",
+      "Python",
+      "RAG",
+      "Vector DB",
       "Celery",
       "Qdrant",
       "WebSockets",
@@ -431,8 +434,9 @@ export const PROJECTS: Project[] = [
       { label: "Monitor", detail: "live logs + metrics", kind: "data" },
       { label: "Analytics", detail: "cost / latency", kind: "end" },
     ],
-    featured: true,
-  },
+     github:
+      "https://github.com/vishnu915/N45-Agentic-Builder",
+    featured: true,},
   {
     title: "Agentic HR — AI Recruitment Pipeline",
     tagline:
