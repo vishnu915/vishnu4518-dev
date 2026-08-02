@@ -120,10 +120,8 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       content: "https://vishnu4518-dev.vercel.app/og-image.png",
     },
   ],
-
   links: [
     { rel: "stylesheet", href: appCss },
-    { rel: "icon", href: "/favicon.ico", type: "image/x-icon" },
   ],
 }),
   shellComponent: RootShell,
