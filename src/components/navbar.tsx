@@ -49,8 +49,9 @@ export function Navbar() {
             VV
           </span>
           <span className="font-display text-sm font-semibold tracking-tight">
-            Vishnu<span className="text-muted-foreground">.dev</span>
-          </span>
+            Vishnu{"  "}
+            <span className="text-red-500">.dev</span>
+                </span>
         </button>
 
         <ul className="hidden items-center gap-1 lg:flex">
