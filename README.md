@@ -15,9 +15,9 @@ Open your project in the [Lovable editor](https://lovable.dev) and keep building
 Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
 
 ```sh
-git clone <this-repository-url>
+git clone https://github.com/vishnu915/vishnu4518-dev.git
 cd <repository-name>
-npm i
+npm instal
 npm run dev
 ```
 
