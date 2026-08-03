@@ -16,7 +16,7 @@ import {
 export const PROFILE = {
   name: "Vishnu Vardhan",
   headline:
-    "Scale 0 → 1 | Agentic AI Engineer | Ex-SDE Intern | AI Agents | LLMs | Multi-Agent Systems | Python | LangGraph | LangChain | MCP | FastAPI | RAG | Vector DB | React.js | BCA ’26",
+    "Scale 0 → 100 | Agentic AI Engineer | Ex-SDE Intern | AI Agents | LLMs | Multi-Agent Systems | Python | LangGraph | LangChain | MCP | FastAPI | RAG | Vector DB | React.js | BCA ’26",
   roles: [
     "AI Engineer",
     "Software Engineer",
