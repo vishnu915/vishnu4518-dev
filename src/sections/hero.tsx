@@ -164,7 +164,7 @@ export function Hero() {
             </Magnetic>
              <span className="font-mono ml-auto inline-flex items-center gap-2 rounded-full border border-[#ff2d55]/40 bg-[#ff2d55]/10 px-4 py-2 text-xs font-semibold tracking-wide text-[#ff2d55] uppercase">
               <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#ff2d55]" />
-              Expected to perform work at a 5+ years experience level
+              Expected to perform work at a 5 years experience level
             </span>
           
           </motion.div>
